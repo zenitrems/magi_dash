@@ -1,0 +1,28 @@
+    body {
+        animation: 20000ms ease-in-out infinite color-change;
+    }
+
+    @keyframes color-change {
+        0% {
+            background-color: #fff;
+        }
+        20% {
+            background-color: gray;
+        }
+        40% {
+            background-color: #123;
+        }
+        60% {
+            background-color: #134;
+        }
+        80% {
+            background-color: #456;
+        }
+        100% {
+            background-color: #fff;
+        }
+    }
+
+    .navbar {
+        margin-bottom: 20px;
+    }
